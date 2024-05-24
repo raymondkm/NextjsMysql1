@@ -11,5 +11,6 @@ export default async function handler(req, res) {
   } catch (error) {
     // unhide to check error
     res.status(500).json({ error: error.message });
+    
   }
 }
